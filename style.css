@@ -1,0 +1,26 @@
+div{
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: fit-content;
+    
+}
+.image{
+    height: 100%;
+    width: auto;
+}
+
+.wrapper {
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.wrapper:hover {
+    background-color: black;
+}
+
