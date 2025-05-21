@@ -1,0 +1,18 @@
+
+#syndaText {
+    animation: slideInFromTop 2.5s ease forwards;
+}
+
+#Q {
+    animation: slideInFromBottom 2.5s ease forwards;
+}
+
+@keyframes slideInFromTop {
+    from { transform: translateY(-5rem); }
+    to { transform: translateY(0); }
+}
+
+@keyframes slideInFromBottom {
+    from { transform: translateY(5rem); }
+    to { transform: translateY(0); }
+}
